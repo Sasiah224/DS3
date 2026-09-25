@@ -1,0 +1,5 @@
+I think a stack is a good choice for an undo and redo system because it uses Last In First Out or LIFO. This means the most recent action is the first one removed. For example if I make three changes I would want to undo the third change first. When I undo an action I can move it from the undo stack to the redo stack. If I make a new action the redo stack gets cleared because the old actions should not be redone after making a new change
+
+A queue works better for a help desk because it uses First In First Out or FIFO. This means the first customer who gets in line should be the first customer helped. For example if Jordan gets in line before Taylor then Jordan should be helped first. The queue adds new customers to the back and removes customers from the front
+
+My Stack and Queue are different from Python lists because I made them using Nodes and pointers. With a regular list I could use things like append and pop to add and remove items. With my custom structures I have to control how each Node connects to the next one. This helped me understand how stacks and queues work instead of just using Python's built in list functions
